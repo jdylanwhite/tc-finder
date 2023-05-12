@@ -1,5 +1,6 @@
 **/data
 **/images
 **/__pycache__
+.vscode/
 ml_hurricanes/
 secrets.csv
