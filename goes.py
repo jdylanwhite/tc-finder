@@ -1,4 +1,3 @@
-import os
 import datetime
 import xarray as xr
 import requests
@@ -12,7 +11,6 @@ def day_of_year(date):
 
     Args:
         date (datetime.datetime): the date to find the day of year
-    
     """
     
     year = date.year
