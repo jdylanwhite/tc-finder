@@ -4,3 +4,4 @@
 .vscode/
 ml_hurricanes/
 secrets.csv
+*.log
