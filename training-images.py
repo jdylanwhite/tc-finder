@@ -174,7 +174,7 @@ for count, date in enumerate(df['ISO_TIME'].unique()):
         del(ds)
 
     except:
-        log.error("Error saving image")
+        log.debug("Error saving image")
         
 # Get the ending time
 toc = time.perf_counter()
